@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+    background-color: rgb(215 236 255);
+}
+div{
+    /* height: 100vh; */
+}
+h1{
+    margin: 10 auto;
+    font-size: 2rem;
+}
+.cloud{
+    width: 20%;
+    display: block;
+    margin: auto;
+}
+.top-cloud{
+    display: block;
+    width: 65%;
+}
+.bottom-cloud{
+    display: flex;
+}
+.bottom-cloud>:first-child{
+    width: 25%;
+}
+.mountain{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
